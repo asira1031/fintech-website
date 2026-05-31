@@ -218,55 +218,109 @@ export default function Home() {
 
       {/* Projects */}
       <section
-        id="projects"
-        className="py-24 bg-gray-100 px-6"
-      >
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-5xl font-bold text-center mb-16 text-gray-900">
-            Featured Projects
-          </h2>
+  id="projects"
+  className="py-24 bg-gray-100 px-6"
+>
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-5xl font-bold text-center mb-16 text-gray-900">
+      Featured Projects
+    </h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+```
+<div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
 
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="font-bold text-xl mb-4">
-                Enterprise Management System
-              </h3>
-              <p className="text-gray-600">
-                Comprehensive business management platform.
-              </p>
-            </div>
+  <div className="bg-white rounded-2xl shadow-lg p-8">
+    <h3 className="font-bold text-2xl mb-4">
+      Manny Pay Digital Payment Platform
+    </h3>
+    <p className="text-gray-600">
+      A digital payment ecosystem designed to streamline financial
+      transactions through secure, scalable, and user-friendly payment
+      technologies.
+    </p>
+  </div>
 
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="font-bold text-xl mb-4">
-                Inventory Tracking Platform
-              </h3>
-              <p className="text-gray-600">
-                Real-time inventory monitoring and reporting.
-              </p>
-            </div>
+  <div className="bg-white rounded-2xl shadow-lg p-8">
+    <h3 className="font-bold text-2xl mb-4">
+      CryptoHost Wallet
+    </h3>
+    <p className="text-gray-600">
+      Secure cryptocurrency wallet infrastructure featuring transaction
+      management, authentication systems, and financial dashboards.
+    </p>
+  </div>
 
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="font-bold text-xl mb-4">
-                HR Information System
-              </h3>
-              <p className="text-gray-600">
-                Employee records and payroll automation.
-              </p>
-            </div>
+  <div className="bg-white rounded-2xl shadow-lg p-8">
+    <h3 className="font-bold text-2xl mb-4">
+      Asira Remittance Platform
+    </h3>
+    <p className="text-gray-600">
+      Modern remittance platform focused on transaction processing,
+      customer management, and operational reporting.
+    </p>
+  </div>
 
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="font-bold text-xl mb-4">
-                Digital Payment Gateway
-              </h3>
-              <p className="text-gray-600">
-                Secure fintech payment processing solution.
-              </p>
-            </div>
+  <div className="bg-white rounded-2xl shadow-lg p-8">
+    <h3 className="font-bold text-2xl mb-4">
+      Business Management System
+    </h3>
+    <p className="text-gray-600">
+      Enterprise platform integrating HR, payroll, attendance tracking,
+      analytics, and operational reporting.
+    </p>
+  </div>
 
-          </div>
-        </div>
-      </section>
+</div>
+```
+
+  </div>
+</section>
+
+{/* Testimonials */}
+
+<section className="py-24 bg-white px-6">
+  <div className="max-w-7xl mx-auto">
+
+```
+<h2 className="text-5xl font-bold text-center mb-16 text-gray-900">
+  Client Testimonials
+</h2>
+
+<div className="grid md:grid-cols-3 gap-8">
+
+  <div className="bg-gray-100 p-8 rounded-2xl">
+    <p className="text-gray-600 mb-6">
+      "Fintech Solutions delivered a reliable and scalable platform that helped streamline our operations."
+    </p>
+    <h4 className="font-bold">
+      Business Operations Manager
+    </h4>
+  </div>
+
+  <div className="bg-gray-100 p-8 rounded-2xl">
+    <p className="text-gray-600 mb-6">
+      "The development team demonstrated professionalism and technical expertise throughout the project."
+    </p>
+    <h4 className="font-bold">
+      Technology Consultant
+    </h4>
+  </div>
+
+  <div className="bg-gray-100 p-8 rounded-2xl">
+    <p className="text-gray-600 mb-6">
+      "The project was delivered on time and exceeded our expectations."
+    </p>
+    <h4 className="font-bold">
+      Business Owner
+    </h4>
+  </div>
+
+</div>
+```
+
+  </div>
+</section>
+
 
       {/* Contact */}
       <section
