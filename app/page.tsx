@@ -135,42 +135,90 @@ export default function Home() {
 
     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-  <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
-    <img src="/projects/mannypay.png" alt="MannyPay" className="w-full h-56 object-cover" />
+  {/* MannyPay */}
+  <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
+    <div className="h-64 bg-gray-100 flex items-center justify-center p-2">
+      <img
+        src="/projects/mannypay.png"
+        alt="MannyPay"
+        className="max-h-full max-w-full object-contain"
+      />
+    </div>
+
     <div className="p-6">
-      <h3 className="font-bold text-xl mb-3">MannyPay Digital Wallet</h3>
+      <h3 className="font-bold text-xl mb-3">
+        MannyPay Digital Wallet
+      </h3>
+
       <p className="text-gray-600">
-        Digital wallet ecosystem with QR payments and analytics.
+        Digital wallet ecosystem featuring QR payments,
+        merchant onboarding, and transaction analytics.
       </p>
     </div>
   </div>
 
-  <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
-    <img src="/projects/cryptohost.png" alt="CryptoHost" className="w-full h-56 object-cover" />
+  {/* CryptoHost */}
+  <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
+    <div className="h-64 bg-gray-100 flex items-center justify-center p-2">
+      <img
+        src="/projects/cryptohost.png"
+        alt="CryptoHost"
+        className="max-h-full max-w-full object-contain"
+      />
+    </div>
+
     <div className="p-6">
-      <h3 className="font-bold text-xl mb-3">CryptoHost Platform</h3>
+      <h3 className="font-bold text-xl mb-3">
+        CryptoHost Platform
+      </h3>
+
       <p className="text-gray-600">
-        Cryptocurrency hosting infrastructure and monitoring dashboards.
+        Cryptocurrency hosting infrastructure,
+        monitoring dashboards, and analytics tools.
       </p>
     </div>
   </div>
 
-  <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
-    <img src="/projects/remittance.png" alt="Remittance" className="w-full h-56 object-cover" />
+  {/* Remittance */}
+  <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
+    <div className="h-64 bg-gray-100 flex items-center justify-center p-2">
+      <img
+        src="/projects/remittance.png"
+        alt="Remittance"
+        className="max-h-full max-w-full object-contain"
+      />
+    </div>
+
     <div className="p-6">
-      <h3 className="font-bold text-xl mb-3">Global Remittance</h3>
+      <h3 className="font-bold text-xl mb-3">
+        Global Remittance
+      </h3>
+
       <p className="text-gray-600">
-        International money transfer platform with reporting tools.
+        International money transfer platform with
+        tracking, reporting, and currency conversion.
       </p>
     </div>
   </div>
 
-  <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
-    <img src="/projects/qrpay.png" alt="QRPay" className="w-full h-56 object-cover" />
+  {/* QR Gateway */}
+  <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
+    <div className="h-64 bg-gray-100 flex items-center justify-center p-2">
+      <img
+        src="/projects/qrpay.png"
+        alt="QR Payment Gateway"
+        className="max-h-full max-w-full object-contain"
+      />
+    </div>
+
     <div className="p-6">
-      <h3 className="font-bold text-xl mb-3">QR Payment Gateway</h3>
+      <h3 className="font-bold text-xl mb-3">
+        QR Payment Gateway
+      </h3>
+
       <p className="text-gray-600">
-        Merchant QR payments and payment analytics.
+        Merchant QR payments, payment reconciliation,
+        and transaction analytics dashboard.
       </p>
     </div>
   </div>
