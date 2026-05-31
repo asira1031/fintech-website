@@ -133,7 +133,7 @@ export default function Home() {
 <section className="py-20 bg-blue-950 text-white">
   <div className="max-w-7xl mx-auto px-6">
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
   {/* MannyPay */}
   <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
@@ -222,6 +222,33 @@ export default function Home() {
       </p>
     </div>
   </div>
+
+  {/* Online Farming */}
+<div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
+  <div className="h-64 bg-gray-100 flex items-center justify-center p-2">
+    <img
+      src="/projects/onlinefarming.png"
+      alt="Online Farming"
+      className="max-h-full max-w-full object-contain"
+    />
+  </div>
+
+  <div className="p-6">
+    <span className="inline-block bg-green-100 text-green-700 text-xs px-3 py-1 rounded-full mb-3">
+      Agritech
+    </span>
+
+    <h3 className="font-bold text-xl mb-3">
+      Online Farming (Paalaga)
+    </h3>
+
+    <p className="text-gray-600">
+      Integrated digital farming platform combining livestock
+      management, investment tracking, monitoring, reporting,
+      and community engagement.
+    </p>
+  </div>
+</div>
 
 </div>
 
@@ -328,47 +355,113 @@ export default function Home() {
   </div>
 </section>
 
-{/* Testimonials */}
+{/* Stats Section */}
+<section className="py-20 bg-blue-900 text-white">
+  <div className="max-w-7xl mx-auto px-6">
 
+    <div className="grid md:grid-cols-4 gap-8 text-center">
+
+      <div>
+        <h3 className="text-5xl font-bold mb-2">15+</h3>
+        <p className="text-blue-200">
+          Completed Projects
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-5xl font-bold mb-2">99.9%</h3>
+        <p className="text-blue-200">
+          System Uptime
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-5xl font-bold mb-2">24/7</h3>
+        <p className="text-blue-200">
+          Technical Support
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-5xl font-bold mb-2">5+</h3>
+        <p className="text-blue-200">
+          Industry Solutions
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+{/* Testimonials */}
 <section className="py-24 bg-white px-6">
   <div className="max-w-7xl mx-auto">
 
-```
-<h2 className="text-5xl font-bold text-center mb-16 text-gray-900">
-  Client Testimonials
-</h2>
+    <h2 className="text-5xl font-bold text-center mb-16 text-gray-900">
+      Client Testimonials
+    </h2>
 
-<div className="grid md:grid-cols-3 gap-8">
+    <div className="grid md:grid-cols-3 gap-8">
 
-  <div className="bg-gray-100 p-8 rounded-2xl">
-    <p className="text-gray-600 mb-6">
-      "Fintech Solutions delivered a reliable and scalable platform that helped streamline our operations."
-    </p>
-    <h4 className="font-bold">
-      Business Operations Manager
-    </h4>
-  </div>
+      <div className="bg-gray-50 p-8 rounded-2xl shadow-lg">
+        <div className="text-yellow-500 text-2xl mb-4">
+          ★★★★★
+        </div>
 
-  <div className="bg-gray-100 p-8 rounded-2xl">
-    <p className="text-gray-600 mb-6">
-      "The development team demonstrated professionalism and technical expertise throughout the project."
-    </p>
-    <h4 className="font-bold">
-      Technology Consultant
-    </h4>
-  </div>
+        <p className="text-gray-600 mb-6">
+          Fintech Solutions Provider delivered our payment platform
+          ahead of schedule and exceeded expectations.
+        </p>
 
-  <div className="bg-gray-100 p-8 rounded-2xl">
-    <p className="text-gray-600 mb-6">
-      "The project was delivered on time and exceeded our expectations."
-    </p>
-    <h4 className="font-bold">
-      Business Owner
-    </h4>
-  </div>
+        <h4 className="font-bold">
+          Operations Manager
+        </h4>
 
-</div>
-```
+        <span className="text-gray-500">
+          MannyPay
+        </span>
+      </div>
+
+      <div className="bg-gray-50 p-8 rounded-2xl shadow-lg">
+        <div className="text-yellow-500 text-2xl mb-4">
+          ★★★★★
+        </div>
+
+        <p className="text-gray-600 mb-6">
+          Their team modernized our infrastructure and improved
+          system reliability significantly.
+        </p>
+
+        <h4 className="font-bold">
+          Chief Technology Officer
+        </h4>
+
+        <span className="text-gray-500">
+          CryptoHost
+        </span>
+      </div>
+
+      <div className="bg-gray-50 p-8 rounded-2xl shadow-lg">
+        <div className="text-yellow-500 text-2xl mb-4">
+          ★★★★★
+        </div>
+
+        <p className="text-gray-600 mb-6">
+          Professional, responsive, and highly technical.
+          A reliable long-term technology partner.
+        </p>
+
+        <h4 className="font-bold">
+          Project Manager
+        </h4>
+
+        <span className="text-gray-500">
+          Global Remittance
+        </span>
+      </div>
+
+    </div>
 
   </div>
 </section>
