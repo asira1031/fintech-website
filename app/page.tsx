@@ -6,6 +6,7 @@ import {
   FaServer,
 } from "react-icons/fa";
 import Navbar from "../components/Navbar";
+import ProjectsCarousel from "@/components/Projectcarousel";
 
 export default function Home() {
   return (
@@ -42,6 +43,53 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Stats */}
+<section className="py-16 bg-white">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+
+      <div>
+        <h3 className="text-5xl font-bold text-blue-700">
+          50+
+        </h3>
+        <p className="text-gray-600 mt-2">
+          Projects Completed
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-5xl font-bold text-blue-700">
+          15+
+        </h3>
+        <p className="text-gray-600 mt-2">
+          Years Experience
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-5xl font-bold text-blue-700">
+          100+
+        </h3>
+        <p className="text-gray-600 mt-2">
+          Clients Supported
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-5xl font-bold text-blue-700">
+          99.9%
+        </h3>
+        <p className="text-gray-600 mt-2">
+          System Uptime
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       {/* About Section */}
       <section
@@ -129,128 +177,47 @@ export default function Home() {
   </div>
 </section>
 
-{/* Statistics Section */}
-<section className="py-20 bg-blue-950 text-white">
-  <div className="max-w-7xl mx-auto px-6">
+<ProjectsCarousel />
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-  {/* MannyPay */}
-  <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
-    <div className="h-64 bg-gray-100 flex items-center justify-center p-2">
-      <img
-        src="/projects/mannypay.png"
-        alt="MannyPay"
-        className="max-h-full max-w-full object-contain"
-      />
-    </div>
+{/* Partnerships */}
+<section className="py-24 bg-white px-6">
+  <div className="max-w-7xl mx-auto text-center">
 
-    <div className="p-6">
-      <h3 className="font-bold text-xl mb-3">
-        MannyPay Digital Wallet
-      </h3>
+    <h2 className="text-5xl font-bold mb-4 text-gray-900">
+      Strategic Partnerships
+    </h2>
 
-      <p className="text-gray-600">
-        Digital wallet ecosystem featuring QR payments,
-        merchant onboarding, and transaction analytics.
-      </p>
-    </div>
-  </div>
-
-  {/* CryptoHost */}
-  <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
-    <div className="h-64 bg-gray-100 flex items-center justify-center p-2">
-      <img
-        src="/projects/cryptohost.png"
-        alt="CryptoHost"
-        className="max-h-full max-w-full object-contain"
-      />
-    </div>
-
-    <div className="p-6">
-      <h3 className="font-bold text-xl mb-3">
-        CryptoHost Platform
-      </h3>
-
-      <p className="text-gray-600">
-        Cryptocurrency hosting infrastructure,
-        monitoring dashboards, and analytics tools.
-      </p>
-    </div>
-  </div>
-
-  {/* Remittance */}
-  <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
-    <div className="h-64 bg-gray-100 flex items-center justify-center p-2">
-      <img
-        src="/projects/remittance.png"
-        alt="Remittance"
-        className="max-h-full max-w-full object-contain"
-      />
-    </div>
-
-    <div className="p-6">
-      <h3 className="font-bold text-xl mb-3">
-        Global Remittance
-      </h3>
-
-      <p className="text-gray-600">
-        International money transfer platform with
-        tracking, reporting, and currency conversion.
-      </p>
-    </div>
-  </div>
-
-  {/* QR Gateway */}
-  <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
-    <div className="h-64 bg-gray-100 flex items-center justify-center p-2">
-      <img
-        src="/projects/qrpay.png"
-        alt="QR Payment Gateway"
-        className="max-h-full max-w-full object-contain"
-      />
-    </div>
-
-    <div className="p-6">
-      <h3 className="font-bold text-xl mb-3">
-        QR Payment Gateway
-      </h3>
-
-      <p className="text-gray-600">
-        Merchant QR payments, payment reconciliation,
-        and transaction analytics dashboard.
-      </p>
-    </div>
-  </div>
-
-  {/* Online Farming */}
-<div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition">
-  <div className="h-64 bg-gray-100 flex items-center justify-center p-2">
-    <img
-      src="/projects/onlinefarming.png"
-      alt="Online Farming"
-      className="max-h-full max-w-full object-contain"
-    />
-  </div>
-
-  <div className="p-6">
-    <span className="inline-block bg-green-100 text-green-700 text-xs px-3 py-1 rounded-full mb-3">
-      Agritech
-    </span>
-
-    <h3 className="font-bold text-xl mb-3">
-      Online Farming (Paalaga)
-    </h3>
-
-    <p className="text-gray-600">
-      Integrated digital farming platform combining livestock
-      management, investment tracking, monitoring, reporting,
-      and community engagement.
+    <p className="text-gray-600 mb-16 max-w-3xl mx-auto">
+      Building strong collaborations with organizations
+      and institutions to create innovative and impactful solutions.
     </p>
-  </div>
-</div>
 
-</div>
+    <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+
+      <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
+        <h3 className="text-2xl font-bold mb-3">
+          Zebel Entertainment Inc.
+        </h3>
+
+        <p className="text-gray-600">
+          Partnered on media, technology, and digital
+          initiatives supporting creative productions.
+        </p>
+      </div>
+
+      <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
+        <h3 className="text-2xl font-bold mb-3">
+          Boy Scouts of the Philippines
+        </h3>
+
+        <p className="text-gray-600">
+          Collaboration through the On My Honor:
+          Heroes Reborn project and related initiatives.
+        </p>
+      </div>
+
+    </div>
 
   </div>
 </section>
@@ -295,66 +262,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Projects */}
-      <section
-  id="projects"
-  className="py-24 bg-gray-100 px-6"
->
-  <div className="max-w-7xl mx-auto">
-    <h2 className="text-5xl font-bold text-center mb-16 text-gray-900">
-      Featured Projects
-    </h2>
-
-```
-<div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
-
-  <div className="bg-white rounded-2xl shadow-lg p-8">
-    <h3 className="font-bold text-2xl mb-4">
-      Manny Pay Digital Payment Platform
-    </h3>
-    <p className="text-gray-600">
-      A digital payment ecosystem designed to streamline financial
-      transactions through secure, scalable, and user-friendly payment
-      technologies.
-    </p>
-  </div>
-
-  <div className="bg-white rounded-2xl shadow-lg p-8">
-    <h3 className="font-bold text-2xl mb-4">
-      CryptoHost Wallet
-    </h3>
-    <p className="text-gray-600">
-      Secure cryptocurrency wallet infrastructure featuring transaction
-      management, authentication systems, and financial dashboards.
-    </p>
-  </div>
-
-  <div className="bg-white rounded-2xl shadow-lg p-8">
-    <h3 className="font-bold text-2xl mb-4">
-      Asira Remittance Platform
-    </h3>
-    <p className="text-gray-600">
-      Modern remittance platform focused on transaction processing,
-      customer management, and operational reporting.
-    </p>
-  </div>
-
-  <div className="bg-white rounded-2xl shadow-lg p-8">
-    <h3 className="font-bold text-2xl mb-4">
-      Business Management System
-    </h3>
-    <p className="text-gray-600">
-      Enterprise platform integrating HR, payroll, attendance tracking,
-      analytics, and operational reporting.
-    </p>
-  </div>
-
-</div>
-```
-
-  </div>
-</section>
-
 {/* Stats Section */}
 <section className="py-20 bg-blue-900 text-white">
   <div className="max-w-7xl mx-auto px-6">
@@ -395,70 +302,75 @@ export default function Home() {
 </section>
 
 {/* Testimonials */}
-<section className="py-24 bg-white px-6">
+<section className="py-24 bg-gray-50 px-6">
   <div className="max-w-7xl mx-auto">
 
-    <h2 className="text-5xl font-bold text-center mb-16 text-gray-900">
+    <h2 className="text-5xl font-bold text-center text-gray-900 mb-4">
       Client Testimonials
     </h2>
 
+    <p className="text-center text-gray-600 mb-16 max-w-3xl mx-auto">
+      Trusted by organizations, businesses, and technology partners
+      for delivering reliable software solutions and IT services.
+    </p>
+
     <div className="grid md:grid-cols-3 gap-8">
 
-      <div className="bg-gray-50 p-8 rounded-2xl shadow-lg">
-        <div className="text-yellow-500 text-2xl mb-4">
+      <div className="bg-white p-8 rounded-2xl shadow-lg">
+        <div className="text-yellow-500 text-xl mb-4">
           ★★★★★
         </div>
 
         <p className="text-gray-600 mb-6">
-          Fintech Solutions Provider delivered our payment platform
-          ahead of schedule and exceeded expectations.
+          Fintech Solutions helped modernize our digital payment
+          platform and significantly improved our operational efficiency.
         </p>
 
-        <h4 className="font-bold">
+        <h4 className="font-bold text-gray-900">
+          Juan Dela Cruz
+        </h4>
+
+        <p className="text-sm text-gray-500">
           Operations Manager
-        </h4>
-
-        <span className="text-gray-500">
-          MannyPay
-        </span>
+        </p>
       </div>
 
-      <div className="bg-gray-50 p-8 rounded-2xl shadow-lg">
-        <div className="text-yellow-500 text-2xl mb-4">
+      <div className="bg-white p-8 rounded-2xl shadow-lg">
+        <div className="text-yellow-500 text-xl mb-4">
           ★★★★★
         </div>
 
         <p className="text-gray-600 mb-6">
-          Their team modernized our infrastructure and improved
-          system reliability significantly.
+          Professional team with excellent technical expertise.
+          Their support and development services exceeded expectations.
         </p>
 
-        <h4 className="font-bold">
-          Chief Technology Officer
+        <h4 className="font-bold text-gray-900">
+          Maria Santos
         </h4>
 
-        <span className="text-gray-500">
-          CryptoHost
-        </span>
+        <p className="text-sm text-gray-500">
+          Business Owner
+        </p>
       </div>
 
-      <div className="bg-gray-50 p-8 rounded-2xl shadow-lg">
-        <div className="text-yellow-500 text-2xl mb-4">
+      <div className="bg-white p-8 rounded-2xl shadow-lg">
+        <div className="text-yellow-500 text-xl mb-4">
           ★★★★★
         </div>
 
         <p className="text-gray-600 mb-6">
-          Professional, responsive, and highly technical.
-          A reliable long-term technology partner.
+          Reliable technology partner for software development,
+          IT maintenance, and enterprise system solutions.
         </p>
 
-        <h4 className="font-bold">
-          Project Manager
+        <h4 className="font-bold text-gray-900">
+          Michael Reyes
         </h4>
 
-        <span className="text-gray-500">
-          Global Remittance
-        </span>
+        <p className="text-sm text-gray-500">
+          IT Director
+        </p>
       </div>
 
     </div>
@@ -490,11 +402,58 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-blue-950 text-white py-8 text-center">
-        <p>
-          © 2026 Fintech Solutions Provider Inc. All Rights Reserved.
+<footer className="bg-slate-950 text-white py-16 px-6">
+  <div className="max-w-7xl mx-auto">
+
+    <div className="grid md:grid-cols-3 gap-12">
+
+      <div>
+        <h3 className="text-2xl font-bold mb-4">
+          Fintech Solutions Provider Inc.
+        </h3>
+
+        <p className="text-gray-400">
+          Delivering innovative software development,
+          IT support, system maintenance, and digital
+          transformation solutions for businesses.
         </p>
-      </footer>
+      </div>
+
+      <div>
+        <h4 className="font-semibold text-lg mb-4">
+          Services
+        </h4>
+
+        <ul className="space-y-2 text-gray-400">
+          <li>Software Development</li>
+          <li>Web Applications</li>
+          <li>IT Support</li>
+          <li>IT Maintenance</li>
+          <li>Business Systems</li>
+          <li>Technology Solutions</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 className="font-semibold text-lg mb-4">
+          Contact Information
+        </h4>
+
+        <ul className="space-y-2 text-gray-400">
+          <li>Email: info@fintechsolutions.com</li>
+          <li>Phone: +63 XXX XXX XXXX</li>
+          <li>Pampanga, Philippines</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div className="border-t border-gray-800 mt-12 pt-6 text-center text-gray-500">
+      © 2026 Fintech Solutions Provider Inc. All Rights Reserved.
+    </div>
+
+  </div>
+</footer>
     </main>
   );
 }
