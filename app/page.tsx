@@ -18,6 +18,7 @@ export default function Home() {
         id="home"
         className="min-h-screen pt-24 bg-gradient-to-r from-blue-900 via-blue-800 to-green-600 text-white flex items-center"
       >
+        
         <div className="max-w-7xl mx-auto px-6">
           <p className="uppercase tracking-widest text-green-300 mb-4">
             FINTECH SOLUTIONS PROVIDER INC.

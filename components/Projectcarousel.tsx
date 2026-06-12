@@ -9,9 +9,10 @@ import "swiper/css/pagination";
 
 const projects = [
   {
-    title: "MannyPay Digital Wallet",
-    image: "/projects/mannypay.png",
-    description: "Digital wallet ecosystem featuring QR payments and analytics.",
+    title: "TapKita SoftPOS Platform",
+    image: "/projects/tapkita.png",
+    description:
+    "Enterprise-grade Tap-to-Pay solution that transforms Android devices into secure payment terminals for merchants, banks, and payment providers.",
   },
   {
     title: "CryptoHost Platform",
